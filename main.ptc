@@ -1,37 +1,46 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}
+\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}% 
 \ttl@starttoc {default@1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Motivation}{5}{section.1.1}
+\contentsline {section}{\numberline {1.1}Motivation}{5}{section.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Objective}{5}{section.1.2}
+\contentsline {section}{\numberline {1.2}Objective}{5}{section.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}References}{6}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.1}References}{6}{subsection.1.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Set Theory: preliminaries}{7}{chapter.2}
+\contentsline {chapter}{\numberline {2}Set Theory: preliminaries}{7}{chapter.2}% 
 \ttl@stoptoc {default@1}
 \ttl@starttoc {default@2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Precalculus}{9}{chapter.3}
+\contentsline {chapter}{\numberline {3}Precalculus}{9}{chapter.3}% 
 \ttl@stoptoc {default@2}
 \ttl@starttoc {default@3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Signal Processing}{11}{chapter.4}
+\contentsline {chapter}{\numberline {4}Signal Processing}{11}{chapter.4}% 
 \ttl@stoptoc {default@3}
 \ttl@starttoc {default@4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Complex Numbers}{11}{section.4.1}
+\contentsline {section}{\numberline {4.1}Qualitative Analysis}{11}{section.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Further work}{11}{section.4.2}
+\contentsline {section}{\numberline {4.2}Complex Numbers}{11}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Number Theory}{13}{chapter.5}
+\contentsline {section}{\numberline {4.3}Further work}{11}{section.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Number Theory}{13}{chapter.5}% 
 \ttl@stoptoc {default@4}
 \ttl@starttoc {default@5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Pragmatic Control Theory}{15}{chapter.6}
+\contentsline {chapter}{\numberline {6}Pragmatic Control Theory}{15}{chapter.6}% 
 \ttl@stoptoc {default@5}
 \ttl@starttoc {default@6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Introduction}{17}{chapter.7}% 
+\ttl@stoptoc {default@6}
+\ttl@starttoc {default@7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Significance}{19}{section.7.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Summary}{19}{section.7.2}% 
 \contentsfinish 

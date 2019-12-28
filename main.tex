@@ -39,9 +39,9 @@
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 
 % Bibliography
-\usepackage[style=alphabetic,sorting=nyt,sortcites=true,autopunct=true,babel=hyphen,hyperref=true,abbreviate=false,backref=true,backend=biber]{biblatex}
+\usepackage[style=alphabetic,sorting=nyt,sortcites=true,autopunct=true,babel=hyphen,hyperref=true,abbreviate=false,backref=true,backend=bibtex]{biblatex}
 \addbibresource{bibliography.bib} % BibTeX bibliography file
-\defbibheading{bibempty}{}
+%\defbibheading{bibempty}{References}
 
 \input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
 
@@ -74,9 +74,9 @@
 
 %\noindent Copyright \copyright\ 2014 Andrea Hidalgo\\ % Copyright notice
 
-\noindent \textsc{Summer Research Internship, University of Western Ontario}\\
+\noindent \textsc{Centro de Inteligencia Computacional, Instituto Tecnológico de Buenos Aires}\\
 
-\noindent \textsc{github.com/LaurethTeX/Clustering}\\ % URL
+\noindent \textsc{github.com/faturita/path-to-engineering}\\ % URL
 
 \noindent These notes have been gathered to 20 years of career.
 
@@ -108,8 +108,14 @@
 
 
 Sometimes we get lost on the true origin of Engineering.
-Which is the practical implementation of mathematics.
+Which is the practical implementation of mathematics.  Since my entrance course to Engineering as undergraduate students, I started to gather mathematical notes.  This motivation came as a suggestion from Professor .
+The number 3 sheets are very old by now, and they are really rotting, but I found that those notes are a one-to-one mapping of the structure in my brain where I think I understand those concepts.  If you are here to get a deep understanding of many concepts, this is not the place.  I happen to be a very good generalist, and I try to tackle broadly as general as I can, and I only deep digger in few areas.  I tried always to catch the underlying idea, the key concept.  Well, I failed.  In general, I couldn't do this.  Anyway, these notes helped me a lot, and I found that it also helped others, particularly my students and colleagues.
 
+Additionally, if I manage to write everything, I can add references of papers and book, everything in one place, which will be very handy for me.
+
+I abuse the word Engineering too much.  It is so vast, so big, so complex at the same time that there are huge areas that I am missing in this book.  This notes inevitably have my own approach to this area.  Like a hiker going up to the mountain, they only see their own side.   However there is something that I would like to point out.  And that is the spirit of engineering, their soul:  get the foundations, understand the problem, find a match in the foundations, get data, get more date, try to get a ground on what do you think, tinckle something, hack it, try to fix it. If nothing works use WD40 and duct tape.
+
+Engineering is grounded in science, but I think it understands more humbly how the world operates, and the futility, in some way, of our actions.  That is way, it has a certain pragmatism, at the end, that is much more closer to nature than science itself.  Science is sometimes more pedantic, believing it can understand Nature, but you know of course, that Nature cannot be fooled. QUOTE !
 
 
 \section{Objective}\index{Objective}
@@ -120,7 +126,7 @@ Everything that is written here is exactly what I understand. If anything is bes
 
 What I found is that I came to this notes, many times, adding more information and connections to other things, and I will always understand the same things from a different and completely new perspective.
 
-After a while I found that I will be very dissapointed of loosing those notes so I decided to write them down digitally. And have a backup with that.
+After a while I found that I will be very disappointing of loosing those notes so I decided to write them down digitally. And have a backup with that.
 
 How can you translate something that you created with your own pen ?  from your own handwriting ?  into something digital that is feel so cold to the naked eye.
 
@@ -155,6 +161,11 @@ For more information about the cosmological principle, review Chapter 1: Why Lea
 \chapterimage{boat.png}
 \chapter{Precalculus}
 
+The best book of Precalculus is Zill \cite{ZillBook}.  I will recommend this book to anyone to have a grasp on the mathematics that is in general required to enter Universities.
+
+Zill has another book on complex analysis which is also great.  You will have to wait for complex numbers until we get signal processing, because I believe is their real place in Engineering. 
+
+
 %----------------------------------------------------------------------------------------
 %	CHAPTER 4
 %----------------------------------------------------------------------------------------
@@ -163,6 +174,7 @@ For more information about the cosmological principle, review Chapter 1: Why Lea
 
 \chapter{Signal Processing}
 
+\section{Qualitative Analysis}
 
 \section{Complex Numbers}
 
@@ -184,14 +196,24 @@ Im \; z = y
 \end{equation}
 
 \section{Further work}
-Well, finally we reached the point where I my time in Canada finished and I this research is still on its first stages. I have so many ideas of how to explore the clustering techniques in the DAME platform, MatLab, Python and everything else that can be tested. 
-
+Well, finally we reached the point where I my time in Canada finished and I this research is still on its first stages. I have so many ideas of how to explore the clustering techniques in the DAME platform, MatLab, Python and everything else that can be tested \cite{Linde2012}
 
 \chapter{Number Theory}
 
+By far, the most interesting part of Number Theory is Hardy's quote:
+
+This branch of mathematics will never be touch by the mundane pragmatism.
+
+Or something like that.  Well, dear Hardy, you were right but you are now wrong.  This branch of mathematics has found in Cryptography one enormous directo applicaton of mathematics.  Such is this case, that if one very fundamental problem of mathematics like finding quickly and efficiently the primes factors of a really big number is theoretically tackled, it will immediate bring down half of ecomerce operations worldwide, will destroy companies, and will cost huge amount of money.  Anyway, this will never happen. 
+
 \chapter{Pragmatic Control Theory}
 
-That thing you are doing is proportional control.
+That thing you are doing is called proportional control. \cite{book_key}.
 
+\include{Chapters/Chapter01}
+
+\printbibliography
 
 \end{document}
+
+
